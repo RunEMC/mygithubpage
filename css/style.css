@@ -19,7 +19,7 @@
     font-size: 48px;
     position: relative;
     top: 45%;
-    left: 32%;
+    left: 35%;
 }
 
 .image h3 {
@@ -52,6 +52,10 @@
 
 #content_1 {
     height: 350px;
+}
+
+#content_2 .row {
+    left: 5%;
 }
 
 .content h1 {
@@ -130,7 +134,7 @@
 
 #nav #logo img {
     height: 100%;
-    width: 100%;
+    width: 321.1px;
 
 }
 
