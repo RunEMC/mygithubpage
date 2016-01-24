@@ -22,6 +22,23 @@
     left: 32%;
 }
 
+.image h3 {
+    font-family: "Wellfleet";
+    font-size: 36px;
+    color: #99a3a3;
+    position: relative;
+    top: 70%;
+    left: 30%;
+}
+
+.image a {
+    font-family: "Wellfleet";
+    font-size: 36px;
+    position: relative;
+    top: 35%;
+    left: 32%;
+}
+
 .image #mid {
     left:2%;
 }
@@ -44,6 +61,7 @@
     font-weight: 600;
     margin: 30px 60px;
 }
+
 .content p {
     font-size: 20px;
     line-height: 200%;
@@ -70,6 +88,13 @@
 #wall_3 {
     background: url(../img/bot_bg.png) repeat;
     background-attachment: fixed;
+    height: 300px;
+}
+
+#wall_3 a img {
+    position: relative;
+    top: 50%;
+    left: 12%;
 }
 
 .menu {
