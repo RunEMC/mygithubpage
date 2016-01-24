@@ -52,14 +52,21 @@
     font-weight: 300;
     margin: 30px 60px;
 }
+
+.content img {
+    margin: 45px;
+}
+
 #wall_1 {
     background: url(../img/top_bg.png) repeat;
     background-attachment: fixed;
 }
+
 #wall_2 {
     background: url(../img/mid_bg.png) repeat;
     background-attachment: fixed;
 }
+
 #wall_3 {
     background: url(../img/bot_bg.png) repeat;
     background-attachment: fixed;
