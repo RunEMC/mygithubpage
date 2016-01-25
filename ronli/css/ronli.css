@@ -1,0 +1,117 @@
+/* color palette: 
+
+Option 1:
+
+#cfedfd	(207,237,253)
+#bfe6fb	(191,230,251)
+#81b1c9	(129,177,201)
+#55859f	(85,133,159)
+#115376	(17,83,118)
+
+Option 2 (ice cream):
+
+#774F38
+#E08E79
+#F1D4AF
+#ECE5CE
+#C5E0DC
+
+Option 3 (authentic):
+
+#D9CEB2
+#948C75
+#D5DED9
+#7A6A53
+#99B2B7
+*/
+
+body {
+    background-color: ghostwhite;
+}
+
+.nav {
+    background-color: ghostwhite;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 470px;
+    border-bottom: 1px solid #ddd;
+}
+
+.slide {
+    background-image: url("../images/gradiantbg.jpg");
+    background-size: cover;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide-text {
+    margin-top: 150px;
+    color: #1f1f1f;
+}
+
+.slide-text h1 {
+    font-weight: bold
+}
+
+.slide-img {
+    text-align: right;
+}
+
+.slider-nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.arrow-prev {
+    margin-right: 45px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+}
+
+.arrow-next {
+    margin-left: 45px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+}
+
+.slider-dots {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.slider-dots li {
+    color: #bbbcbc;
+    display: inline;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+    color: #363636;
+}
+
+.slide-text a {
+    color: azure;
+}
+
+.slide-text button {
+    color: #1f1f1f;
+    background-color: #ECE5CE
+}
