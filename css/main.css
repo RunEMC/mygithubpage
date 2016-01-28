@@ -56,3 +56,8 @@
     font-family: 'Ariel' sans-serif;
     font-weight: bold;
 }
+
+body {
+    backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
