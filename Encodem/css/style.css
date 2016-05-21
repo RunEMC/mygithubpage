@@ -1,0 +1,126 @@
+#nav {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+
+#nav #logo {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: 5px;
+    margin-left: 110px;
+}
+
+#menu {
+    position: absolute;
+    width: 550px;
+    margin-left: 730px;
+    margin-top: 21px;
+    font-size: 18px;
+}
+
+#menu a:link, a:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#menu a:hover {
+    color:navy;
+    font-weight: bold;
+}
+
+#wall_1 {
+    background: url(../img/test.jpg);
+    background-attachment: fixed;
+    height: 700px;
+}
+
+#content_1 {
+    height: 400px;
+}
+
+#wall_2 {
+    background: url(../img/test2.jpg) repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#content_2 {
+    height: 700px;
+}
+
+
+.image h3 {
+    font-family: "Wellfleet";
+    font-size: 36px;
+    color: #99a3a3;
+    position: absolute;
+    top: 70%;
+}
+
+.image a {
+    font-family: "Wellfleet";
+    font-size: 36px;
+    position: relative;
+    top: 35%;
+}
+
+.content {
+    height: 700px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+
+
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 200%;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+
+.content img {
+    margin: 45px;
+}
+
+.content .row video {
+    margin: 45px;
+}
+
+
+#wall_3 {
+    background: url(../img/bot_bg.png) repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+#wall_3 a img {
+    position: relative;
+    top: 50%;
+}
+
+
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
