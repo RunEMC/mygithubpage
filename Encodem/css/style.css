@@ -36,6 +36,33 @@
     font-weight: bold;
 }
 
+/* General Style for .content's */
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 200%;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#084A75;
+}
+
+/* First stellar bg */
 #wall_1 {
     background: url(../img/test.jpg);
     background-attachment: fixed;
@@ -53,10 +80,16 @@
 }
 
 #content_2 {
-    height: 700px;
+    height: 600px;
 }
 
+#wall_3 {
+    background: url(../img/test3.jpg) repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
 
+/*
 .image h3 {
     font-family: "Wellfleet";
     font-size: 36px;
@@ -71,56 +104,4 @@
     position: relative;
     top: 35%;
 }
-
-.content {
-    height: 700px;
-    width:100%;
-    background: white;
-    z-index: 2;
-}
-
-
-.content h1 {
-    font-size: 40px;
-    color: #464646;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    margin: 30px 60px;
-}
-
-.content p {
-    font-size: 20px;
-    line-height: 200%;
-    color: #343434;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    margin: 30px 60px;
-}
-
-.content img {
-    margin: 45px;
-}
-
-.content .row video {
-    margin: 45px;
-}
-
-
-#wall_3 {
-    background: url(../img/bot_bg.png) repeat;
-    background-attachment: fixed;
-    height: 300px;
-}
-
-#wall_3 a img {
-    position: relative;
-    top: 50%;
-}
-
-
-
-h1::first-letter {
-    font-size: 60px;
-    font-weight: 600;
-    color:#3cb0f8;
-}
+*/
