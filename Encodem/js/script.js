@@ -56,7 +56,7 @@ $(window).scroll(function(){
                 height:'30px'
             },600);
             $('#menu').stop().animate({
-                marginTop:'10px',
+                marginTop:'8px',
             },600);
             $('#menu a').stop().animate({
                 fontSize:'14px',
