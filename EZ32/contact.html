@@ -5,6 +5,7 @@
         <title>Encodem</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -19,9 +20,23 @@
     <body>
         <div id="nav">
             <div id="logo">
-                <img src="img/logo.png">
+                <img src="img/logo4.png" height="60px">
             </div>
-            <div id="menu">
+            <div id="bar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li class="products">
+                        <a href="#about">Products <i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <a href="#product1">Product 1</a>
+                            <a href="#product2">Product 2</a>
+                            <a href="#product3">Product 3</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+                <!--
                 <div class="col-md-3">
                     <a href="#home">Home</a>
                 </div>
@@ -34,9 +49,12 @@
                 <div class="col-md-3">
                     <a href="#support">Support</a>
                 </div>
+--> 
             </div>
         </div>
 
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~ Beginning of Body ~~~~~~~~~~~~~~~~~~~~~~~ -->
+        
         <!-- Temp Place Holder IMG (Will probably be replaced by jumbotron of products) -->
         <div id="wall_1" class="image" data-stellar-background-ratio="0.4"></div>
 

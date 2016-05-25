@@ -1,20 +1,21 @@
-#nav {
-    height: 70px;
+#sitenav {
+    height: 105px;
     width: 100%;
     position: fixed;
     top:0;
     left:0;
-    background: #DCDCDC;
+    background: #111113;
     z-index: 100;
     -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
 }
 
-#nav #logo {
+#sitenav #logo {
+    height: 60px;
     position: absolute;
     top: 0;
     bottom:0;
     margin: 5px;
-    margin-left: 110px;
+    margin-left: 80px;
 }
 
 #menu {
@@ -25,21 +26,79 @@
     font-size: 18px;
 }
 
-#menu a:link, a:visited {
+/* with class=col-md-3
+#menu a:link, a:visited{
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: #1a1a1a;
+    color: #54545f;
+    text-align: center;
 }
 
-#menu a:hover {
-    color: black;
+#menu a:visited {
+    color: #c1c1f0;
 }
 
-body {
-    margin-right: -50px;
+#menu a:hover, a:active {
+    color: #54545f;
 }
+*/
+
+#bar {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bar li {
+    float: left;
+}
+
+#bar li a {
+    display: block;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #c1c1f0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#bar .glyphicon {
+    font-size: 12px;
+}
+
+#bar li a:hover {
+    color: #54545f;
+    background-color: #eaeafa;
+    cursor: pointer;
+}
+
+#bar a:link, a:visited {
+    text-decoration: none;
+}
+
+#bar .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #111113;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#bar .products:hover .dropdown{
+    display: block;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ Web Body ~~~~~~~~~~~~~~ */
 
 /* General Style for .content's */
 .content {
@@ -51,18 +110,19 @@ body {
     color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    margin-left: 60px;
-    margin-top: 30px;
+}
+
+.content h2 {
+    font-size: 32px;
+    color: #D6D6D6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .content p {
-    font-size: 20px;
-    line-height: 200%;
+    font-size: 16px;
     color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    margin-left: 60px;
-    margin-bottom: 30px;
 }
 
 h1::first-letter {
@@ -75,11 +135,11 @@ h1::first-letter {
 #wall_1 {
     background: url(../img/test.jpg);
     background-attachment: fixed;
-    height: 700px;
+    height: 675px;
 }
 
 #content_1 {
-    height: 400px;
+    height: 600px;
 }
 
 #wall_2 {
