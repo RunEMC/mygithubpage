@@ -1,0 +1,161 @@
+#sitenav {
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: #b7d7e8;
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+
+#menu {
+    position: absolute;
+    width: 550px;
+    margin-left: 730px;
+    font-size: 18px;
+}
+
+#bar {
+    margin-left: 50px;
+}
+
+#bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bar li {
+    float: left;
+}
+
+#bar li a {
+    display: block;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #4f4f4f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#bar .glyphicon {
+    font-size: 12px;
+}
+
+#bar li a:hover {
+    color: #000000;
+    background-color: #9bb3be;
+    cursor: pointer;
+}
+
+#bar a:link, a:visited {
+    text-decoration: none;
+}
+
+#bar .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #b7d7e8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#bar .products:hover .dropdown{
+    display: block;
+}
+
+
+
+/* ~~~~~~~~~~~~~~ Web Body ~~~~~~~~~~~~~~ */
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    margin-bottom: 0;
+}
+
+/* General Style for .content's */
+.content {
+    margin-top: 0;
+    background-color: #303030;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: #D6D6D6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.content h2 {
+    font-size: 32px;
+    color: #D6D6D6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 16px;
+    color: #D6D6D6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#084A75;
+}
+*/
+
+/* First stellar bg */
+#wall_1 {
+    background: url(../images/top_bg.png);
+    background-attachment: fixed;
+    height: 600px;
+}
+
+#wall_1 h1, h3 {
+    margin-top: 200px;
+}
+
+#content_1 {
+    height: 600px;
+}
+
+#wall_2 {
+    background: url(../img/test2.jpg) repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+#content_2 {
+    height: 600px;
+}
+
+#wall_3 {
+    background: url(../img/test3.jpg) repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+/*
+.image h3 {
+    font-family: "Wellfleet";
+    font-size: 36px;
+    color: #99a3a3;
+    position: absolute;
+    top: 70%;
+}
+
+.image a {
+    font-family: "Wellfleet";
+    font-size: 36px;
+    position: relative;
+    top: 35%;
+}
+*/
